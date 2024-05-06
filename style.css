@@ -1,0 +1,57 @@
+/* start page one */
+
+body, html{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-color: rgb(99, 200, 124);
+    color: #ffffff;
+    border-radius: 20px;
+    border: 2px black solid;
+    transition: 0.3s;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+button:hover{
+    width: 150px;
+    height: 50px;
+    font-size: 35px;
+    color: #8b1414;
+    border: 3px black solid;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.7);
+}
+
+/* start page two */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    border: 2px red solid;
+    border-spacing: 4px;
+}
+
+td{
+    background-color: #eee;
+    width: 180px;
+    height: 180px;
+    border: 1px #8d8d8d solid;
+}
+
+/* js element */
+img{
+    width: 180px;
+}
